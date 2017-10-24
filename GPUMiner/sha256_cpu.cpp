@@ -45,7 +45,7 @@ static const WORD k[64] = {
 char * print_sha(BYTE * buff) {
 	for (int i = 0; i < SHA256_BLOCK_SIZE; i++)
 	{
-		printf("%x", buff[i]);
+		printf("%02x", buff[i]);
 	}
 	printf("\n");
 	return 0;

@@ -1,3 +1,4 @@
+// haaha
 #pragma once
 
 void dump(const unsigned char * p, int len);
